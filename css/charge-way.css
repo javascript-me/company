@@ -1,0 +1,65 @@
+.charge-way img {
+	width: 100%;
+}
+
+.cw-bg-01 {
+	position: relative;
+}
+
+.cw-bg-01 > div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -115px;
+}
+
+.cw-bg-01 button[name="clickToUse"] {
+	width: 230px;
+	height: 60px;
+	padding: 0;
+	margin-bottom: 8px;
+}
+
+.cw-bg-01 p {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+}
+
+.cw-bg-03 {
+	position: relative;
+	height: 800px;
+}
+
+.cw-bg-03 img:nth-child(2) {
+	width: 900px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -450px;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.0)
+}
+
+.cw-bg-03 img:nth-child(2):hover {
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2)
+}
+
+.compan-account {
+	background-color: #F6FAFF;
+	border: 1px solid #D8D8D8;
+	border-radius: 2px;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 150px;
+}
+
+.compan-account p {
+	padding: 5px 20px;
+}
+
+.compan-account .c999 {
+	width: 80px;
+	display: inline-flex;
+}
